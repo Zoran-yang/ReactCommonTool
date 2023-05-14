@@ -1,10 +1,10 @@
-import { FreeSoloCreateOption } from "../../../../AddUserInfo/src/Component/FreeSoloCreateOption.jsx";
-import Tags from "../../../../AddUserInfo/src/Component/TaskTags.jsx";
-import TaskContentField from "../../../../AddUserInfo/src/Component/TaskContentField.jsx";
+import { FreeSoloCreateOption } from "./FreeSoloCreateOption.jsx";
+import Tags from "./TaskTags.jsx";
+import TaskContentField from "./TaskContentField.jsx";
 import { EditorState, convertFromRaw, convertToRaw } from "draft-js";
 import { useEffect, useState } from "react";
-import getTaskNames from "../../../../AddUserInfo/src/CommonTools/Function/getTaskNames.jsx";
-import strategyDecorator from "../../../../AddUserInfo/src/CommonTools/Function/linkFormatOfTexteditor.jsx";
+import getTaskNames from "../Function/getTaskNames.jsx";
+import strategyDecorator from "../Function/linkFormatOfTexteditor.jsx";
 
 export default function BasicUserInputInterface({
   title,

@@ -1,4 +1,11 @@
-node_modules
-/build
-*.log
+# dependencies
 /node_modules
+
+# testing
+/coverage
+
+# component build
+/dist
+
+# misc
+.DS_Store

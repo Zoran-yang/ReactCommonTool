@@ -1,6 +1,6 @@
 {
   "name": "reactcommontool-zy",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "reactcommontool",
   "license": "MIT",
   "main": "./dist/reactcommontool-zy.umd.js",

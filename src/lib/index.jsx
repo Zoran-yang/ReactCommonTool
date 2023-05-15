@@ -14,3 +14,4 @@ export { default as getTaskNames } from "./Function/getTaskNames";
 export { default as linkFormatOfTexteditor } from "./Function/linkFormatOfTexteditor";
 export { default as saveTasksData } from "./Function/saveTasksData";
 export { taskInfoFormat } from "./Function/taskInfoFormat";
+export { ThemeProvider } from "@mui/material/styles";
